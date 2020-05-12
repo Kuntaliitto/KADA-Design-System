@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Has Typescript enabled
 - Includes addons: viewport, knobs and actions
 
+## Live demo
+
+Go to https://kuntaliitto.github.io/KADA-Design-System/
+
 ## Installation
 
 clone github project
