@@ -1,0 +1,11 @@
+.content {
+    background-color: #acacac;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    row-gap: 12px;
+}

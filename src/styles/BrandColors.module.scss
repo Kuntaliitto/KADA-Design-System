@@ -1,0 +1,93 @@
+:global(.turku) .brandColors {
+
+    h3 {
+        margin-left: 40px;
+    }
+
+    .colorBlock {
+        display: block;
+        width: 25%;
+        height: 50px;
+        margin: 0 4px 4px 0px;
+        position: relative;
+        cursor: pointer;
+
+        &.theme-Oletus    { background-color: #00aeef; }
+        &.theme-Asuminen  { background-color: #00a97a; }
+        &.theme-Kulttuuri { background-color: #ed0c6e; }
+        &.theme-Koulutus  { background-color: #e56d40; }
+        &.theme-Terveys   { background-color: #76c6bb; }
+        &.theme-Tapahtuma { background-color: #f8bb4e; }
+
+        &:hover > .overlay1,
+        &:hover > .overlay2 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.1;
+        }
+
+        &:hover > .overlay1 {
+            background-color: black;
+        }
+
+        &:hover > .overlay2 {
+            background-color: white;
+        }
+
+        .label {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    }
+}
+
+:global(.pori) .brandColors {
+
+    h3 {
+        margin-left: 40px;
+    }
+
+    .colorBlock {
+        display: block;
+        width: 25%;
+        height: 50px;
+        margin: 0 4px 4px 0;
+        position: relative;
+        cursor: pointer;
+
+        &.theme-Oletus    { background-color: #00aeef; }
+        &.theme-Asuminen  { background-color: #e44e34; }
+        &.theme-Kulttuuri { background-color: #ff8200; }
+        &.theme-Koulutus  { background-color: #ffcd00; }
+        &.theme-Terveys   { background-color: #00af66; }
+        &.theme-Tapahtuma { background-color: #009bea; }
+
+        &:hover > .overlay1,
+        &:hover > .overlay2 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.1;
+        }
+
+        &:hover > .overlay1 {
+            background-color: black;
+        }
+
+        &:hover > .overlay2 {
+            background-color: white;
+        }
+
+        .label {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    }
+}

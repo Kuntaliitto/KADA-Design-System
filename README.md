@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## This storybook project
+
+- Has Typescript enabled
+- Includes addons: viewport, knobs and actions
+
+## Installation
+
+clone github project
+
+run `npm install` in the project directory
+
 ## Available Scripts
 
 In the project directory, you can run:
